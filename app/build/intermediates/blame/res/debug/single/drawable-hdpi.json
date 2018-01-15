@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sahilgoyal/Desktop/ClientProjects/NescoAppointment/ServiceSupplier/drag_demo/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/sahilgoyal/Desktop/ClientProjects/NescoAppointment/ServiceSupplier/drag_demo/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/sahilgoyal/Desktop/ClientProjects/NescoAppointment/ServiceSupplier/drag_demo/app/build/intermediates/res/merged/debug/drawable-hdpi/drag.png",
+        "source": "/home/sahilgoyal/Desktop/ClientProjects/NescoAppointment/ServiceSupplier/drag_demo/app/src/main/res/drawable-hdpi/drag.png"
+    }
+]

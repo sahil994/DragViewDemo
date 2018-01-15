@@ -1,0 +1,102 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* __MACOSX/
+* __MACOSX/._AndroidManifest.xml
+* __MACOSX/._gen
+* __MACOSX/._libs
+* __MACOSX/._proguard-project.txt
+* __MACOSX/._project.properties
+* __MACOSX/._res
+* __MACOSX/._src
+* __MACOSX/gen/
+* __MACOSX/gen/._info
+* __MACOSX/gen/info/
+* __MACOSX/gen/info/._dourok
+* __MACOSX/gen/info/dourok/
+* __MACOSX/gen/info/dourok/._android
+* __MACOSX/gen/info/dourok/android/
+* __MACOSX/gen/info/dourok/android/._demo
+* __MACOSX/gen/info/dourok/android/demo/
+* __MACOSX/gen/info/dourok/android/demo/._BuildConfig.java
+* __MACOSX/gen/info/dourok/android/demo/._R.java
+* __MACOSX/libs/
+* __MACOSX/libs/._android-support-v4.jar
+* __MACOSX/res/
+* __MACOSX/res/._drawable-hdpi
+* __MACOSX/res/._drawable-ldpi
+* __MACOSX/res/._drawable-mdpi
+* __MACOSX/res/._drawable-xhdpi
+* __MACOSX/res/._layout
+* __MACOSX/res/._values
+* __MACOSX/res/._values-v11
+* __MACOSX/res/._values-v14
+* __MACOSX/res/drawable-hdpi/
+* __MACOSX/res/drawable-hdpi/._drag.png
+* __MACOSX/res/drawable-hdpi/._ic_launcher.png
+* __MACOSX/res/drawable-xhdpi/
+* __MACOSX/res/drawable-xhdpi/._ic_launcher.png
+* __MACOSX/res/layout/
+* __MACOSX/res/layout/._activity_main.xml
+* __MACOSX/res/values-v11/
+* __MACOSX/res/values-v11/._styles.xml
+* __MACOSX/res/values-v14/
+* __MACOSX/res/values-v14/._styles.xml
+* __MACOSX/res/values/
+* __MACOSX/res/values/._dimens.xml
+* __MACOSX/res/values/._strings.xml
+* __MACOSX/res/values/._styles.xml
+* __MACOSX/src/
+* __MACOSX/src/._info
+* __MACOSX/src/info/
+* __MACOSX/src/info/._dourok
+* __MACOSX/src/info/dourok/
+* __MACOSX/src/info/dourok/._android
+* __MACOSX/src/info/dourok/android/
+* __MACOSX/src/info/dourok/android/._demo
+* __MACOSX/src/info/dourok/android/demo/
+* __MACOSX/src/info/dourok/android/demo/._DragContainer.java
+* __MACOSX/src/info/dourok/android/demo/._MainActivity.java
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
